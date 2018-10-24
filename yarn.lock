@@ -3217,6 +3217,10 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
+gsap@^2.0.2:
+  version "2.0.2"
+  resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/gsap/-/gsap-2.0.2.tgz#c82bde9a078f7922869fc2eb5aaecfa7592d1c2b"
+
 gzip-size@^4.1.0:
   version "4.1.0"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/gzip-size/-/gzip-size-4.1.0.tgz#8ae096257eabe7d69c45be2b67c448124ffb517c"
@@ -3872,6 +3876,10 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
 
+ismobilejs@^0.4.1:
+  version "0.4.1"
+  resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/ismobilejs/-/ismobilejs-0.4.1.tgz#1a5f126c70fed39c93da380fa62cbae5723e7dc2"
+
 isobject@^2.0.0:
   version "2.1.0"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
@@ -4115,6 +4123,10 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
 
+lodash.split@^4.4.2:
+  version "4.4.2"
+  resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/lodash.split/-/lodash.split-4.4.2.tgz#a7f7bd9f37968b9312428e2f3ac3fb3173c4c3c6"
+
 lodash.transform@^4.6.0:
   version "4.6.0"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/lodash.transform/-/lodash.transform-4.6.0.tgz#12306422f63324aed8483d3f38332b5f670547a0"
@@ -4142,6 +4154,13 @@ loose-envify@^1.0.0:
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
+
+lost@^8.3.0:
+  version "8.3.0"
+  resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/lost/-/lost-8.3.0.tgz#adaa8f82b04c99222503a08dfc11d01fe664645d"
+  dependencies:
+    object-assign "^4.1.0"
+    postcss "^6.0.6"
 
 lower-case@^1.1.1:
   version "1.1.4"
@@ -5254,7 +5273,7 @@ postcss-value-parser@^3.0.0, postcss-value-parser@^3.2.3, postcss-value-parser@^
   version "3.3.1"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
 
-postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.20, postcss@^6.0.23:
+postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.20, postcss@^6.0.23, postcss@^6.0.6:
   version "6.0.23"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
   dependencies:
@@ -5712,6 +5731,10 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/run-queue/-/run-queue-1.0.3.tgz#e848396f057d223f24386924618e25694161ec47"
   dependencies:
     aproba "^1.1.1"
+
+rupture@^0.7.1:
+  version "0.7.1"
+  resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/rupture/-/rupture-0.7.1.tgz#d51bcd5fe93757b4855e4ea70ac9d97a897183a1"
 
 rx-lite-aggregates@^4.0.8:
   version "4.0.8"
@@ -6278,6 +6301,10 @@ thread-loader@^1.1.5:
     loader-runner "^2.3.0"
     loader-utils "^1.1.0"
 
+three@^0.97.0:
+  version "0.97.0"
+  resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/three/-/three-0.97.0.tgz#76141e1b0ace14246fe9198a458fefddc98a4e30"
+
 through2@^2.0.0:
   version "2.0.3"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/through2/-/through2-2.0.3.tgz#0004569b37c7c74ba39c43f3ced78d1ad94140be"
@@ -6651,6 +6678,12 @@ vue-template-compiler@^2.5.17:
 vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
+
+vue-typer@^1.2.0:
+  version "1.2.0"
+  resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/vue-typer/-/vue-typer-1.2.0.tgz#08d95785a2817959b92276055cdf272d8986500b"
+  dependencies:
+    lodash.split "^4.4.2"
 
 vue@^2.5.17:
   version "2.5.17"

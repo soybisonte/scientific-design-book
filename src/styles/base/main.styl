@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+html, body
+  position absolute
+  left 0
+  top 0
+  width 100%
+  height 100%
+  margin 0
+  padding 0
+  background-color black
+  color #0f0
+  font-size 16px
+  text-align left
+#app
+  font-family 'Share Tech Mono', Helvetica, Arial, sans-serif
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+  text-align center
+  // color #2c3e50
+
+#nav
+  padding 30px
+a
+  font-weight bold
+  cursor pointer
+  // color #2c3e50
+  text-decoration none
+  &.router-link-exact-active
+    color #0f0
+  &:visited
+    color #0f0
+.console--title
+  text-transform uppercase
+  text-shadow 0px 0px 2px lime;
+  &::before
+    content '$~ '
+  &::after
+    content ' >'
+::selection {
+  background-color:green;
+}
