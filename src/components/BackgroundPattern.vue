@@ -2,13 +2,15 @@
 export default {
   name: 'BackgroundPattern',
   props: {
-    msg: String,
+    msg: {
+      type: String,
+      default: '',
+    },
   },
 };
 </script>
 <template>
-  <div class="BackgroundPattern">
-  </div>
+  <div class="BackgroundPattern"/>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
