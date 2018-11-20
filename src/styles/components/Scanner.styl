@@ -1,0 +1,49 @@
+@import '../base/vars.styl'
+.Scanner
+  display block
+  position relative
+  width 30vw
+  height 30vw
+  border 1px solid $main-color
+  overflow hidden
+  box-shadow 0px 0px 15px 1px $blink-color
+.Scanner--point
+  position absolute
+  width 5px
+  height 5px
+  background-color $main-color
+  box-shadow 0px 0px 15px 1px $blink-color
+  left 50%
+  top 50%
+  transform translate(-50%, -50%)
+.Scanner--hline
+  position absolute
+  width 100%
+  height 1px
+  background-color $main-color
+  box-shadow 0px 0px 15px 1px $blink-color
+  left 50%
+  top 50%
+  transform translate(-50%, -50%)
+.Scanner--vline
+  position absolute
+  width 1px
+  height 100%
+  background-color $main-color
+  box-shadow 0px 0px 15px 1px $blink-color
+  left 50%
+  top 50%
+  transform translate(-50%, -50%)
+.Scanner--figure
+  display block
+  opacity 0.3
+.Scanner--image
+  width 100%
+.Scanner--overlay
+  position absolute
+  left 0
+  top 0
+  width 100%
+  height 100%
+  background-color $main-color
+  mix-blend-mode multiply

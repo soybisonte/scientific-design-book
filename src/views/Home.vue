@@ -17,8 +17,7 @@ export default {
   },
   data() {
     return {
-      copys: `We are HH.218912 people, you don't know who we are, but you'll do.
-      We implant a microproccessor in a human project called Bisonte when the process complete,
+      copys: `We are HH.218912 people. We implant a microproccessor in a human project called Bisonte when the process complete,
       we'll notify to all humans in the world. Stay connect... `,
       ipData: {},
     };

@@ -1,9 +1,19 @@
 <script>
 import { TweenMax, Power3 } from 'gsap';
+import * as Tone from 'tone';
 
 export default {
   name: 'AppButton',
+  data() {
+    return {
+      hoverSound: null,
+      hoverSoundFile: require('../assets/sounds/tape_dos.mp3'),
+    };
+  },
   props: {
+  },
+  created() {
+    this.loadSounds();
   },
   methods: {
     mouseOver() {
@@ -25,6 +35,7 @@ export default {
           });
         },
       });
+      this.hoverSound.start();
     },
     mouseLeave() {
       const { border } = this.$refs;
@@ -34,6 +45,12 @@ export default {
         ease: Power3.easeout,
         overwrite: 'all',
       });
+      this.hoverSound.stop();
+    },
+    loadSounds() {
+      this.hoverSound = new Tone.Player(this.hoverSoundFile, () => {
+        this.hoverSound.volume = -0.7;
+      }).toMaster();
     },
   },
 };
